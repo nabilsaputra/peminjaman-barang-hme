@@ -1,0 +1,83 @@
+.main {
+    height: 100vh;
+    /* background: rgba(71, 178, 228, 0.5); */
+    background-image: url(/images/hme3.png);
+    background-repeat: no-repeat;
+    /* background-size: 60% 90%; */
+}
+.sidebar{
+    background-color: #161616;
+    /* background-color: #209dd8; */
+    color: #fff;
+}
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px 15px;
+}
+.sidebar a:hover{
+    background-color: #209dd8;
+}
+
+.active {
+    background : #000;
+    border-right: solid 10px #209dd8;
+}
+
+.navbar-custom {
+    background-color: #37517e;
+  }
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.card-data {
+    border: solid 3px;
+    padding: 20px 50px;
+    color: black;
+    
+}
+
+.card-data.items{
+    background-color: #20639b;
+    font-weight: bold;
+}
+
+.card-data.category{
+    background-color:#F6d55c;
+    font-weight: bold;
+
+}
+
+.card-data.users{
+    background-color: #Ed355b;
+    font-weight: bold;
+
+}
+.card-data i {
+    font-size: 70px;
+}
+
+.card-desc {
+    font-size: 30px;
+}
+
+.card-count{
+    font-size: 25px;
+}
+
+.poliban img{
+    width: 35px;
+    height: 35px;
+}
+
+.logpol{
+    margin-left: 10px;
+}
+
+.loghme{
+    margin-left: 2px;
+}
